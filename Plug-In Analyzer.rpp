@@ -11,7 +11,8 @@
     |
     |2. Solo the blue source channel(s) you wish to use. If using the transient generator, 
     |     change the settings as you see fit and press Play on the transport bar. If you 
-    |     wish to use an external source, simply create a Send to Track 4. 
+    |     wish to use an external source, simply insert it on a new track and create a 
+    |     Send from that track to Track 4. 
     |
     |3. Open up the scope of your choice from the red Analyzer channels. Their faders
     |     are pulled all the way down by default.
