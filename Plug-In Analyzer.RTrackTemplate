@@ -24,16 +24,16 @@
   MIDIOUT -1
   MAINSEND 1 0
   <FXCHAIN
-    WNDRECT 23 51 1095 555
+    WNDRECT 23 51 1092 539
     SHOW 0
-    LASTSEL 0
+    LASTSEL 1
     DOCKED 0
     BYPASS 0 0 0
     <JS analysis/gfxscope ""
       50.661699 7 2.34 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
     >
     JS_DIMS 868 469
-    FLOATPOS 1025 510 886 516
+    FLOATPOS 1025 510 884 508
     FXID {79CF6BBA-9044-456B-A65F-279C91C23D4D}
     WAK 0 1
     <COMMENT
@@ -41,10 +41,13 @@
     >
     BYPASS 0 0 0
     <JS analysis/gfxanalyzer ""
-      11 -120 0 2.31 2000 0 1000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      11 -120 0 2.13 2500 3 1000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
     >
     JS_DIMS 865 453
-    FLOATPOS 1026 11 883 500
+    <JS_PINMAP
+      6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAIAAAAAAAAADAAAAOgDAAACAAAAAAAAAA==
+    >
+    FLOATPOS 996 55 881 492
     FXID {9E4F808C-7A7C-445C-BC12-95623B763B97}
     WAK 0 1
     <COMMENT
@@ -221,15 +224,12 @@
     LASTSEL 0
     DOCKED 0
     BYPASS 0 0 0
-    <JS loser/WhiteNoise ""
-      -120 -12 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    <JS Liteon/pinknoisegen ""
+      0 -11 -25 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
     >
-    FLOATPOS 56 158 505 133
-    FXID {AA13E9B0-39C6-4C28-946F-A65A960204E0}
+    FLOATPOS 64 92 505 177
+    FXID {5613AE88-A93D-4516-A4DC-018F9A1EC91C}
     WAK 0 0
-    <COMMENT
-      R29vZCBmb3IgbWVhc3VyaW5nIGZyZXF1ZW5jeSByZXNwb25zZSBhbmQgZ2FpbiByZWR1Y3Rpb24=
-    >
   >
 >
 <TRACK
@@ -265,7 +265,7 @@
     <JS synthesis/tonegenerator ""
       -12 -120 440 0 0 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
     >
-    FLOATPOS 23 51 505 241
+    FLOATPOS 49 51 505 241
     FXID {F1B8E623-182A-4518-B442-78FA203E747F}
     WAK 0 0
     <COMMENT
@@ -304,13 +304,13 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS synthesis/sine_sweep ""
-      8 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      0.1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
     >
-    FLOATPOS 23 51 670 136
+    FLOATPOS 2175 184 505 120
     FXID {719822E0-F099-458E-A82B-6A97BB9E69E3}
     WAK 0 0
     <COMMENT
-      R29vZCBmb3Igc3VwcGx5aW5nIHNpZ25hbHMgdG8gRVFzIGFuZCBkaXN0b3J0aW9uLXR5cGUgZWZmZWN0cw==
+      R29vZCBmb3Igc3VwcGx5aW5nIHNpZ25hbHMgdG8gRVFzIGZvciB2aWV3aW5nIGZyZXF1ZW5jeSBjdXJ2ZXM=
     >
   >
 >
@@ -346,62 +346,14 @@
     BYPASS 0 0 0
     <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
       eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAAAEAA=
-      776t3g3wrd5V3g48KZuNPQAAgD8AAAAAAAAAAIcYNj5jqJw8AAAAAAAAAD8h5508AACAPwAAAD8AAAAAAAAAAA==
+      776t3g3wrd5V3g48KZuNPQAAgD8AAAAAAAAAAJvooT5jqJw8AAAAAAAAAD8h5508AACAPwAAAD8AAAAAAAAAAA==
       AAAQAAAA
     >
-    FLOATPOS 1215 170 456 565
+    FLOATPOS 1215 170 345 461
     FXID {451EA66E-FF69-4356-AF09-8B9E1DA78D94}
     WAK 0 0
     <COMMENT
       R29vZCBmb3Igc3VwcGx5aW5nIHNpZ25hbHMgdG8gZGlzdG9ydGlvbiBhbmQgY29tcHJlc3NvciBlZmZlY3Rz
-    >
-  >
-  <ITEM {043BBC7E-FF3A-4059-9BEC-28CAAEFD45A3}
-    POSITION 0 0
-    SNAPOFFS 0 0
-    LENGTH 9.6 16
-    LOOP 1
-    ALLTAKES 0
-    FADEIN 5 0 0 5 0 0 0
-    FADEOUT 5 0 0 5 0 0 0
-    MUTE 0 0
-    SEL 0
-    IGUID {043BBC7E-FF3A-4059-9BEC-28CAAEFD45A3}
-    IID 1
-    NAME "Transient Generator untitled MIDI item"
-    VOLPAN 1 0 1 -1
-    SOFFS 0 0
-    PLAYRATE 1 1 0 -1 0 0.0025
-    CHANMODE 0
-    GUID {EF67E3BA-61FE-4E91-A284-9A50B8E7F1E9}
-    <SOURCE MIDI
-      HASDATA 1 960 QN
-      CCINTERP 32
-      POOLEDEVTS {71A714B4-BDFC-4C94-8F8C-FAD2F7B37A6E}
-      e 0 90 2c 60
-      e 480 80 2c 00
-      e 2400 90 2c 60
-      e 480 80 2c 00
-      e 480 90 2c 60
-      e 480 80 2c 00
-      e 3360 90 2c 60
-      e 480 80 2c 00
-      e 3360 90 2c 60
-      e 480 80 2c 00
-      e 1440 90 2c 60
-      e 480 80 2c 00
-      E 1440 b0 7b 00
-      CCINTERP 32
-      CHASE_CC_TAKEOFFS 1
-      GUID {7B5F15C3-5EC7-4AF5-94A1-CC47DB46D0F2}
-      IGNTEMPO 0 120 4 4
-      SRCCOLOR 0
-      VELLANE -1 100 0
-      CFGEDITVIEW -675.957444 0.05944 63 12 0 -1 0 0 0 0.5
-      KEYSNAP 0
-      TRACKSEL -252
-      EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-      CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.5 540 61 1869 965 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
     >
   >
 >
