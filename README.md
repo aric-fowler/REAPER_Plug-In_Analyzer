@@ -1,5 +1,6 @@
 # REAPER_Plug-In_Analyzer
 Files for measuring the frequency and dynamic response of audio effects plug-ins using the REAPER digital audio workstation (DAW)
+
 Developed in REAPER v6.34
 
 The analyzer is available in track template and project template formats. Both template use only stock (Rea or JS) REAPER plug-ins 
